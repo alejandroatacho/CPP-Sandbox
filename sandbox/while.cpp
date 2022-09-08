@@ -13,12 +13,12 @@ int main()
     {
         cout << "a is " << a << endl;
         a++;
+        if (a == 7)
+        {
+            cout << "a is 5 and you have reached the middle ground" << endl;
+        }
+        if ( a == b){
+            cout << "a is 10 and you have reached the end of this while loop" << endl;
+        }
     }
-    {
-        /* code */
-    }
-    {
-        /* code */
-    }
-    
 }
