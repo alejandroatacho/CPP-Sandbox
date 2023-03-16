@@ -1,7 +1,7 @@
 #include <string>
 #include <iostream>
 
-void printMessage()
+extern "C" __declspec(dllexport) void printMessage()
 {
     std::cout << "Hello, World!" << std::endl;
     std::cout << "I'm a function!" << std::endl;
